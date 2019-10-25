@@ -11,3 +11,6 @@ def count(request):
     return render(request,'count.html ')
 def eggs(request):
     return HttpResponse("this is working proparly")
+
+
+  copyright 2019
