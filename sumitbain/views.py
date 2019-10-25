@@ -10,4 +10,4 @@ def home(request):
 def count(request):
     return render(request,'count.html ')
 def eggs(request):
-    return HttpResponse("this is working")
+    return HttpResponse("this is working proparly")
